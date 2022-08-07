@@ -1,2 +1,2 @@
 ﻿// Папка с семинарами по С#
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Привет всем программистам!");
