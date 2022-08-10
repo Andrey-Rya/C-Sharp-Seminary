@@ -6,7 +6,7 @@ int N = Convert.ToInt32(Console.ReadLine()); // запоминаем число 
 int count = 2; // присваиваем началу счетчика старт от 2
 
 //-----------цикл с условием для вывода четных чисел от 1 до N--------
-while (count >= 2 & count <= N)
+while (count <= N)
 {
     Console.WriteLine(count);
    count = count +=2; 
