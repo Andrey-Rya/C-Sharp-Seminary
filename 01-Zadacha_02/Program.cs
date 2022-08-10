@@ -8,16 +8,16 @@ if (numberA > numberB)
     int max = numberA;
     int min = numberB;
     Console.Write("max = ");
-    Console.WriteLine(numberA);
+    Console.WriteLine(max);
     Console.Write("min = ");
-    Console.WriteLine(numberB);
+    Console.WriteLine(min);
 }
 else
 {
     int max = numberB;
     int min = numberA;
     Console.Write("max = ");
-    Console.WriteLine(numberB);
+    Console.WriteLine(max);
     Console.Write("min = ");
-    Console.WriteLine(numberA);
+    Console.WriteLine(min);
 }
