@@ -8,12 +8,7 @@ int count = 2; // присваиваем началу счетчика стар�
 //-----------цикл с условием для вывода четных чисел от 1 до N--------
 while (count >= 2 & count <= N)
 {
-   int A = count % 2;
-     if (A == 0)
-     {
-        Console.WriteLine(count);
-        A = A + 1;
-     }
-   count = count + 1; 
+    Console.WriteLine(count);
+   count = count +=2; 
 }
  
