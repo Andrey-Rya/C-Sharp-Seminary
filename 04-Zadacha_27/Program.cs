@@ -4,8 +4,7 @@ Console.Clear();
 Console.Write("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int result = 0;
-
-if (a >= 0)
+if (a >= 0) // находим сумму чисел >=0
 {
 	while (a > 0)
 	{
@@ -13,31 +12,19 @@ if (a >= 0)
 		a = a / 10;
 		result = result + number;
 	}
-	Console.WriteLine($"Сумма всех цифр в вашем числе: {result}");
+	Console.WriteLine($"Сумма всех положительных цифр в вашем числе: {result}");
 }
-else
+else // находим сумму чисел < 0
 {
-    int someValue = a;
-    string someStr = someValue.ToString();
-	int ss = Convert.ToInt32 (someStr[1]);
-    Console.WriteLine($"строка a =  {a}");
-    Console.WriteLine($"someStr[1] =  {someStr[1]}");
-    Console.WriteLine($"s =  {ss}");
-    while (a < 0)
-    {
-    	int number = a % 10;
-    	a = a / 10;
-    	result = result - number;
-	// Console.WriteLine($"Сумма NUMBER в вашем числе: {number}");
-    // Console.WriteLine($"Сумма A в вашем числе: {a}");
-    // Console.WriteLine($"Сумма RESULT в вашем числе: {Math.Abs(result)}");
-    }
-    //result = result - s;
-    int s = Convert.ToInt32(result-someStr[1]);
-	Console.WriteLine($"Сумма RESULT-someStr[1] = {result} - {someStr[1]}");
-    //int sum = new Int32 {someStr[1]} + {result};
-	Console.WriteLine($"Сумма с учетом отр числа = {s}");
+	string someStr = a.ToString();
+	string ss = Convert.ToString(someStr[1]);
+	int num1 = int.Parse(ss);
+	while (a < 0)
+	{
+		int number = a % 10;
+		a = a / 10;
+		result = result - number;
+	}
+	result = result - num1 - num1;
+	Console.WriteLine($"Сумма всех цифр с учетом первого отрицательного числа = {result}");
 }
-
-//int res = result - sum;
-//Console.WriteLine($"Сумма всех цифр в нашем числе:  {res}"); // это второй вариант отображения
