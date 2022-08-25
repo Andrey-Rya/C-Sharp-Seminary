@@ -13,5 +13,6 @@ Console.Write("Вы ввели этот массив: ");
 
 for (int i = 0; i < N; i++) // вывод массива в терминал
 {
-	Console.Write("{0}, ", Array[i]);
+	//Console.Write("{0}, ", Array[i]); //второй вариант вывода
+	Console.Write('[' + string.Join(",", Array[i]) + ']');
 }
