@@ -3,7 +3,7 @@
 
 /* ввод элементов массива с клавиатуры */
 Console.Clear();
-Console.Write("Введите количество элементов массива: ");
+Console.Write("Введите количество вводимых чисел: ");
 int num = Convert.ToInt32(Console.ReadLine());
 double[] array = new double[num];
 for (int count = 0; count < num; count++)
