@@ -21,7 +21,7 @@ Console.WriteLine();
 
 /* находим макс и мин массива */
 double min = array[0];
-double max = 0;
+double max = array[0];
 
 for (int z = 0; z < array.Length; z++)
 {
