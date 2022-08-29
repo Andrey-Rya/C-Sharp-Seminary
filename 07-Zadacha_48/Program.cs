@@ -19,17 +19,3 @@ for (int rows = 0; rows < m; rows++) // счетчик строк
     }
     Console.WriteLine();
 }
-
-
-
-// for (int i = 0; i < m; i++)
-// {
-//     for (int j = 0; j < n; j++)
-//     {
-//         matrix[i, j] = new Random().Next(-100, 100); // заполняем строку
-//         Console.Write(matrix[i, j] + " ");
-//     }
-//     Console.WriteLine();
-// }
-
-
