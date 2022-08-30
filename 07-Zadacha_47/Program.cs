@@ -1,7 +1,7 @@
 ﻿// зададим двумерный массив размером m x n, заполненный 
 // случайными вещественными числами
 
-
+// === первый вариант === //
 Console.Clear();
 Console.WriteLine("Задайте двумерный массив m x n");
 Console.WriteLine();
@@ -22,3 +22,25 @@ for (int i = 0; i < m; i++)
     Console.WriteLine();
 }
 
+// === второй вариант === //
+
+// Console.Clear();
+// Console.WriteLine("Задайте двумерный массив m x n");
+// Console.WriteLine();
+// Console.Write("Введите количество строк m:  ");
+// int m = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите количество столбцов  n:  ");
+// int n = Convert.ToInt32(Console.ReadLine());
+
+// double[,] matrix = new double[m, n]; // задаем двумерный массив
+
+// for (int i = 0; i < m; i++)
+// {
+//     for (int j = 0; j < n; j++)
+//     {
+//         matrix[i, j] = Convert.ToDouble(new Random().NextDouble());
+//         matrix[i, j] = Math.Round(matrix[i,j], 2);
+//         Console.Write(matrix[i, j] + "  ");
+//     }
+//     Console.WriteLine();
+// }
