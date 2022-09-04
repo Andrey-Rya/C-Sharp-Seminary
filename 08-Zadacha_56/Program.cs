@@ -23,7 +23,7 @@ for (int i = 1; i < array.GetLength(0); i++)
     }
 }
 
-Console.WriteLine($"\n{minSumLine + 1} - строкa с наименьшей суммой элементов = ({sumLine})");
+Console.WriteLine($"\n{minSumLine + 1} -> строкa с наименьшей суммой элементов (= {sumLine})");
 
 
 int SumLineElements(int[,] array, int i)
