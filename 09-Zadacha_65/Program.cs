@@ -2,8 +2,8 @@
 // в промежутке от M до N с помощью рекурсии
 
 Console.Clear();
-int m = InputNum("Введите m: ");
-int n = InputNum("Введите n: ");
+int m = InputNum("Введите M: ");
+int n = InputNum("Введите N: ");
 
 void PrintNumbers(int number, int n)
 {
