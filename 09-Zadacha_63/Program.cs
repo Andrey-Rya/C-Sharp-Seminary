@@ -14,6 +14,7 @@ void PrintNumbers(int number)
     PrintNumbers(number-1);
     Console.Write($"{number} ");
 }
+
 PrintNumbers(n);
 
 
