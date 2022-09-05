@@ -15,7 +15,7 @@ int InputNum(string input)
     return output;
 }
 
-if (n > 3 || m > 3) 
+if (n > 3 || m > 3 || n < 0 || m < 0) 
 {
     Console.WriteLine("\nПостарайтесь вводить значения от 0 до 3");
     goto Found;
